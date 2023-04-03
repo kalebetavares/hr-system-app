@@ -1,5 +1,6 @@
 package br.com.hrsystem.userapi.domain;
 
+import br.com.hrsystem.userapi.resources.dto.UserDto;
 import lombok.*;
 
 import javax.persistence.Entity;
@@ -22,4 +23,11 @@ public class User {
     private String password;
     private String email;
     private Double hourlyPrice;
+
+    public User (UserDto userDto){
+        this.name = userDto.getName();
+        this.password = userDto.getPassword();
+        this.email = userDto.getEmail();
+        this.hourlyPrice = userDto.getHourlyPrice();
+    }
 }
