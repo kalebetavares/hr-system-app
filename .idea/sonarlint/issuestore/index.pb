@@ -23,5 +23,3 @@ o
 Vuser-api/src/main/java/br/com/hrsystem/userapi/resources/exceptions/StandardError.java,9\a\9af566ca13aeeb087aa459fabd4304ff76cc9dbb
 _
 /payroll-api/src/main/resources/application.yaml,9\0\905c7bc37d1ae6adc354797b594bfc2ff5004458
-
-Opayroll-api/src/main/java/br/com/hrsystem/payrollapi/PayrollApiApplication.java,8\d\8d1453e1c9d6ab633697297598a7b2b2650914bc
